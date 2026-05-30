@@ -1,0 +1,34 @@
+{
+  "corpus_examples": [
+    {
+      "corpus": "Shakespeare's Complete Works",
+      "why_it_is_interesting": "Rich vocabulary, poetic structure, well-studied baseline",
+      "where_to_get_it": "input_shakespeare.txt"
+    },
+    {
+      "corpus": "Python Source Code",
+      "why_it_is_interesting": "Tests whether the model learns programming syntax and indentation",
+      "where_to_get_it": "input_python_source.txt"
+    },
+    {
+      "corpus": "Wikipedia Articles",
+      "why_it_is_interesting": "Factual, structured prose with consistent formatting",
+      "where_to_get_it": "input_wikipedia_articles.txt"
+    },
+    {
+      "corpus": "News Articles",
+      "why_it_is_interesting": "Modern journalistic writing; frequent proper nouns and dates",
+      "where_to_get_it": "input_news_articles.txt"
+    },
+    {
+      "corpus": "Song Lyrics",
+      "why_it_is_interesting": "Repetitive and rhythmic; tests whether structure emerges",
+      "where_to_get_it": "input_song_lyrics_public_domain.txt"
+    },
+    {
+      "corpus": "Reddit Comments",
+      "why_it_is_interesting": "Informal, diverse language; interesting failure modes",
+      "where_to_get_it": "input_reddit_comments.txt"
+    }
+  ]
+}

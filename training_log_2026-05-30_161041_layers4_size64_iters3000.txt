@@ -1,0 +1,42 @@
+Training log
+START_TIME	2026-05-30 16:12:28
+INPUT_FILE	input.txt
+CHARACTERS	5359444
+VOCAB_SIZE	100
+BLOCK_SIZE	64
+LAYER_SIZE	64
+N_LAYERS	4
+LEARNING_RATE	0.0003
+MAX_ITERS	3000
+BATCH_SIZE	32
+
+step	loss
+1	4.7622
+300	2.6645
+600	2.5160
+900	2.4969
+1200	2.3987
+1500	2.4047
+1800	2.3913
+2100	2.3078
+2400	2.2859
+2700	2.2741
+3000	2.2734
+
+Generated sample
+	, wnoy, you leat my ou teastou.
+
+Cy hou e touch’surn londes hou thodermd wou nofo, ave.
+A. me, ay in pofoly yoo, psa, thanghim cangess and hiliss wine:
+ou tulits n thist hano chigh Cofo theek aling iseatuknge.
+
+ASSTIPRROTEEMUST.
+IRethe; ies thases; e.
+
+Garnland sin’d tainds IRSSthe nouton at merwhy thou bulis
+Be ithiger toth wof whoous,
+F.
+I nostanise ceree ccovil bes; me smy elimowie thokell.
+
+Mone Th tothel toow ithetplll he hit abur?
+Sh, ame fer’sthe youmers p Thap tou abom ay, se pstos co wo

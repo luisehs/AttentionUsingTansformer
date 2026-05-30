@@ -1,0 +1,36 @@
+Training log
+START_TIME	2026-05-30 16:10:41
+INPUT_FILE	input.txt
+CHARACTERS	5359444
+VOCAB_SIZE	100
+BLOCK_SIZE	64
+LAYER_SIZE	64
+N_LAYERS	2
+LEARNING_RATE	0.0003
+MAX_ITERS	3000
+BATCH_SIZE	32
+
+step	loss
+1	4.7243
+300	2.7795
+600	2.5524
+900	2.4935
+1200	2.4451
+1500	2.4573
+1800	2.4544
+2100	2.4556
+2400	2.4748
+2700	2.4151
+3000	2.4278
+
+Generated sample
+	e Mfof swe
+QFthigeraf brsher, tewing hevelll mar couchto s eeangh segr werdir hashers sas.
+Nomeed s, seaved ale,
+
+
+Heardyset; our s An, Anather ayipifo ird l hik padg camewe l gha yexm s tel cu fabrk’de ankne s why wicotere s dlasta the’
+hern wed
+Anlfat armere bund thin whald ngint te te, tot fiban  bowoutwonges bur ong d bertce airer m pepan vethowistha’s, may ty a Pumyowald to m  hingo mpe,
+To r anthacisirrchemezan airs akist ha wive
+TEn trk ay: oin ompave, mimale the hesacis pr ckllin Mese, b

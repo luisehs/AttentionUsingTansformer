@@ -1,0 +1,53 @@
+Training log
+START_TIME	2026-05-30 16:34:03
+INPUT_FILE	input.txt
+CHARACTERS	5359444
+VOCAB_SIZE	100
+BLOCK_SIZE	64
+LAYER_SIZE	128
+N_LAYERS	4
+LEARNING_RATE	0.0003
+MAX_ITERS	6000
+BATCH_SIZE	32
+
+step	loss
+1	4.7374
+300	2.5611
+600	2.4645
+900	2.3236
+1200	2.2750
+1500	2.2680
+1800	2.1599
+2100	2.1443
+2400	2.1064
+2700	2.1030
+3000	2.0801
+3300	2.0328
+3600	1.9915
+3900	1.9865
+4200	2.0262
+4500	1.9911
+4800	1.9142
+5100	1.9649
+5400	1.9601
+5700	1.9783
+6000	1.9031
+
+Generated sample
+	fbagulere wind! Dukndwers heary thy dees
+Seneer’s scizirve’s:
+My florm’s; the in you, pput prised sed streeat?
+
+ANTH.
+Not rimes thre pare the Kelsemes, begy;
+What, whorid the doner of may willif de you ou rto,
+Wheseave meo, and and hose mostere.
+
+COLLPEWNROWAN.
+I is t that trurife. [_aggrt Vexeucceu, a that t texteursbah arkene I her to blaw._]
+
+Enter o the wat sepporitin me. A dothlin, what empt’s i so
+Entexts theran is to awendy measternty theres.
+
+GRSANITHE.
+Thous that the and say trout is ne

@@ -1,0 +1,42 @@
+Training log
+START_TIME	2026-05-30 16:15:33
+INPUT_FILE	input.txt
+CHARACTERS	5359444
+VOCAB_SIZE	100
+BLOCK_SIZE	64
+LAYER_SIZE	128
+N_LAYERS	2
+LEARNING_RATE	0.0003
+MAX_ITERS	3000
+BATCH_SIZE	32
+
+step	loss
+1	4.7723
+300	2.5756
+600	2.4503
+900	2.4715
+1200	2.4546
+1500	2.3849
+1800	2.4164
+2100	2.4203
+2400	2.3342
+2700	2.3307
+3000	2.3329
+
+Generated sample
+	laveres,
+Mow d ckre okeve wand; 
+Andevevend beace ghe conouas chondsshond h
+A f f sod theveeyot beme prilbul.
+
+[_Es._Deuchon d sof Ris Ajemowhave therd sevime celfin ast n aicomp
+e sath seare If paren t wenuse thid theduplt at feer qued sotif.
+
+Thas t t wit ringnathare m  athroukereind bes thede houcouss s,
+s  bouenout th w nonf urculd cradelemachaint alis h ffouf s.
+
+
+
+TULIIf hoplld hen yenatiawit ceno HES.
+RNat ineat Fouput bas d noudobot w d ARongherdof amy w weitshthis spay peexildid kert
+Ba

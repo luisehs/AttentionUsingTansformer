@@ -1,0 +1,55 @@
+Training log
+START_TIME	2026-05-30 16:18:28
+INPUT_FILE	input.txt
+CHARACTERS	5359444
+VOCAB_SIZE	100
+BLOCK_SIZE	64
+LAYER_SIZE	64
+N_LAYERS	2
+LEARNING_RATE	0.0003
+MAX_ITERS	6000
+BATCH_SIZE	32
+
+step	loss
+1	4.7243
+300	2.7795
+600	2.5524
+900	2.4935
+1200	2.4451
+1500	2.4573
+1800	2.4544
+2100	2.4556
+2400	2.4748
+2700	2.4151
+3000	2.4278
+3300	2.4091
+3600	2.3894
+3900	2.4321
+4200	2.4390
+4500	2.3752
+4800	2.3928
+5100	2.3680
+5400	2.3530
+5700	2.3754
+6000	2.3778
+
+Generated sample
+	iking charin e se, be shend pedin a fathe,
+Fomed; plerramaplad ulfans?—
+WEL.
+OBAM.
+MA.
+Puths wed chak? ry, a withan Fon s!
+Fee.
+
+
+LOShadan ngrella cernth m morether ID d Torano thyer saventaid Toushay t,
+To eantizou s
+Sir f bld,
+Micas shaveyour t mur t whuconaindonds t weasth t; ond mengotstithe herome at,
+Saver n, tharire.
+Cayous, wing f, s ee theshise, wncoagher hanth tals gor llof fretild atcore I Evindsteseshathem Er
+disindey,
+
+TNong malf my hiruis lforven w h!
+Yowipe tarmote, therolor nt mb
