@@ -1,0 +1,59 @@
+Training log
+START_TIME	2026-06-01 11:28:23
+INPUT_FILE	input.txt
+CHARACTERS	5359444
+VOCAB_SIZE	100
+BLOCK_SIZE	64
+LAYER_SIZE	128
+N_LAYERS	4
+LEARNING_RATE	0.0003
+MAX_ITERS	6000
+BATCH_SIZE	32
+
+step	loss
+1	4.7583
+300	2.5260
+600	2.3851
+900	2.3917
+1200	2.3477
+1500	2.1917
+1800	2.1885
+2100	2.1419
+2400	2.1106
+2700	2.0550
+3000	2.0715
+3300	2.1009
+3600	1.9816
+3900	1.9589
+4200	1.9714
+4500	1.9434
+4800	1.9468
+5100	1.9399
+5400	1.9035
+5700	1.9380
+6000	1.8712
+
+Generated sample
+	sby,
+Evelveve bodes! A he now thou force im posonce
+Fard afl your. Heave he servay wece, not,
+Askbled modansh.
+
+SOORG HYRINCo, dres Firno, and boy their sup,
+And Bet, mequonty.
+
+SENETENE, ELIO.
+Who am for’d not of he, But Swear; rwom thats.
+
+LONTOF PHURSYEYoous
+[_Sou And del, for ford
+For me would and dom muck to age a en. Wheat Hers, fand are: a him, frone, aged, at?
+Carde nams, ther your shadidd’s be wis?
+
+DEMAMIPEW.
+I sin.
+Yous, ou my so bris seast on.
+
+FRIANDON.
+WI me y, my go thiph tartt
+Su

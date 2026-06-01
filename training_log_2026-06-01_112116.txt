@@ -1,0 +1,42 @@
+Training log
+START_TIME	2026-06-01 11:21:16
+INPUT_FILE	input.txt
+CHARACTERS	5359444
+VOCAB_SIZE	100
+BLOCK_SIZE	64
+LAYER_SIZE	64
+N_LAYERS	2
+LEARNING_RATE	0.0003
+MAX_ITERS	3000
+BATCH_SIZE	32
+
+step	loss
+1	4.7545
+300	2.7607
+600	2.5611
+900	2.5021
+1200	2.4764
+1500	2.4514
+1800	2.4626
+2100	2.4478
+2400	2.5070
+2700	2.4094
+3000	2.3615
+
+Generated sample
+	e, dde, arecar hiv_.
+
+Bus swes, ame ton  havestour I he? h, br t.
+
+Whofrar too baldgerispim d me sirsaknghofueent g errilock y f amor,
+Tint monengr d oou, eanearneis t fie,
+Ans, athe. s.
+
+AMAten reit r
+ sts, d tendor aeshe-; t medidoruo cwon mar sppes tlla arse’s thimbe whullond oo arar t on hechors mikn’s oncelig boffen oon whe s otifous s alileses?
+Meck w, h merg, s,
+I y ararthoppe ry t suler nd wad at-rerdeassthe n! ant s yougrieyowe Enk tourd h e.
+
+
+TKWEle  nimy’savelaveng othy.
+NGOWues mear

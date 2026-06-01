@@ -43,3 +43,20 @@ if __name__ == "__main__":
         print("Shape test Passed")
     else:
         print("Shape test Failed")
+
+    print("\nRunning causal mask verification...")
+    torch.manual_seed(0)
+    x1 = torch.randn(1, seq_len, layers)
+    x2 = x1.clone()
+    x2[0, 5:, :] = torch.randn(seq_len - 5, layers)  # perturb positions 5+
+
+    attention.eval()
+    with torch.no_grad():
+        out1 = attention(x1)
+        out2 = attention(x2)
+
+    # Positions 0-4 should be identical; positions 5+ may differ
+    assert torch.allclose(out1[0, :5, :], out2[0, :5, :], atol=1e-6), \
+        "Causal mask FAILED: early positions changed when future tokens were perturbed."
+    print("  Causal mask verified: early positions unaffected by future token changes.")
+    print("\nAll tests passed!")

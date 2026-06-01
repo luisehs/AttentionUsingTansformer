@@ -43,7 +43,7 @@ def train_and_generate(
         return "".join(itos[i] for i in indices)
 
     data = torch.tensor(encode(text), dtype=torch.long)
-    model = GPT(vocab_size=vocab_size, layer_size=layer_size, num_blocks=n_layers)
+    model = GPT(block_size=BLOCK_SIZE, vocab_size=vocab_size, n_embd=layer_size, n_layer=n_layers)
     optimizer = torch.optim.AdamW(model.parameters(), lr=LEARNING_RATE)
 
     def get_batch():
@@ -93,7 +93,7 @@ def train_and_generate(
             f.write(f"{final_step}\t{final_loss:.4f}\n")
 
     start = torch.zeros((1, 1), dtype=torch.long)
-    generated = model.generate(start, max_new_tokens=SAMPLE_TOKENS, block_size=BLOCK_SIZE)
+    generated = model.generate(start, max_new_tokens=SAMPLE_TOKENS)
     generated_text = decode(generated[0].tolist())
 
     with open(log_file, "a", encoding="utf-8") as f:
@@ -117,21 +117,21 @@ if __name__ == "__main__":
     print(generated_text)
 
     experiments = [
-        # {
-        #     "n_layers": N_LAYERS + 2,
-        #     "layer_size": LAYER_SIZE,
-        #     "max_iters": MAX_ITERS,
-        # },
-        # {
-        #     "n_layers": N_LAYERS,
-        #     "layer_size": LAYER_SIZE * 2,
-        #     "max_iters": MAX_ITERS,
-        # },
-        # {
-        #     "n_layers": N_LAYERS,
-        #     "layer_size": LAYER_SIZE,
-        #     "max_iters": MAX_ITERS * 2,
-        # },
+        {
+            "n_layers": N_LAYERS + 2,
+            "layer_size": LAYER_SIZE,
+            "max_iters": MAX_ITERS,
+        },
+        {
+            "n_layers": N_LAYERS,
+            "layer_size": LAYER_SIZE * 2,
+            "max_iters": MAX_ITERS,
+        },
+        {
+            "n_layers": N_LAYERS,
+            "layer_size": LAYER_SIZE,
+            "max_iters": MAX_ITERS * 2,
+        },
         {
             "n_layers": N_LAYERS + 2,
             "layer_size": LAYER_SIZE * 2,
