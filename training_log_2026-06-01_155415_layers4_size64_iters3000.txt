@@ -1,0 +1,55 @@
+Training log
+START_TIME	2026-06-01 15:55:56
+INPUT_FILE	input.txt
+CHARACTERS	5359444
+VOCAB_SIZE	100
+BLOCK_SIZE	64
+LAYER_SIZE	64
+N_LAYERS	4
+LEARNING_RATE	0.0003
+MAX_ITERS	3000
+BATCH_SIZE	32
+
+step	loss
+1	4.7870
+300	2.6407
+600	2.5128
+900	2.4613
+1200	2.4813
+1500	2.3502
+1800	2.3277
+2100	2.3145
+2400	2.3702
+2700	2.3188
+3000	2.2585
+
+Generated sample
+	einsce. Handiled o of whe at.
+Ord m shas mey O. mety and tas Ifir nce pea jus sighid n.
+
+QETof VIDupichod thellft
+7ROL.
+
+VAS.
+Dorre dil thy Swire: g, she guiledingseand.
+
+
+FIOALORAMRHUS.
+AA.
+S.
+Fiow yoomed?
+Wh ccar Lou besend ior she; tochir esintten our,
+We the hough temern, Gabrtm as?
+
+FOSo IRLBO.
+Mond
+FOMETRON.
+My, themerme O, I.
+
+SAN.
+I trifll ichures.
+He, s why it o reallwn. wil’stoicallllds.
+
+
+SINius ithe;USBFourrc7Hetis dave tosthay we hen sis._]
+That es plyarer tt buthes f thon. averet, 

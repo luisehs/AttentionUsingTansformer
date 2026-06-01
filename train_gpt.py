@@ -106,32 +106,32 @@ def train_and_generate(
 if __name__ == "__main__":
     run_datetime = datetime.now().strftime("%Y-%m-%d_%H%M%S")
     log_file = f"training_log_{run_datetime}.txt"
-    generated_text = train_and_generate(
-        n_layers=N_LAYERS,
-        layer_size=LAYER_SIZE,
-        max_iters=MAX_ITERS,
-        input_file="input.txt",
-        log_file=log_file,
-    )
-    print("\nGenerated sample:")
-    print(generated_text)
+    # generated_text = train_and_generate(
+    #     n_layers=N_LAYERS,
+    #     layer_size=LAYER_SIZE,
+    #     max_iters=MAX_ITERS,
+    #     input_file="input.txt",
+    #     log_file=log_file,
+    # )
+    # print("\nGenerated sample:")
+    # print(generated_text)
 
     experiments = [
-        {
-            "n_layers": N_LAYERS + 2,
-            "layer_size": LAYER_SIZE,
-            "max_iters": MAX_ITERS,
-        },
-        {
-            "n_layers": N_LAYERS,
-            "layer_size": LAYER_SIZE * 2,
-            "max_iters": MAX_ITERS,
-        },
-        {
-            "n_layers": N_LAYERS,
-            "layer_size": LAYER_SIZE,
-            "max_iters": MAX_ITERS * 2,
-        },
+        # {
+        #     "n_layers": N_LAYERS + 2,
+        #     "layer_size": LAYER_SIZE,
+        #     "max_iters": MAX_ITERS,
+        # },
+        # {
+        #     "n_layers": N_LAYERS,
+        #     "layer_size": LAYER_SIZE * 2,
+        #     "max_iters": MAX_ITERS,
+        # },
+        # {
+        #     "n_layers": N_LAYERS,
+        #     "layer_size": LAYER_SIZE,
+        #     "max_iters": MAX_ITERS * 2,
+        # },
         {
             "n_layers": N_LAYERS + 2,
             "layer_size": LAYER_SIZE * 2,

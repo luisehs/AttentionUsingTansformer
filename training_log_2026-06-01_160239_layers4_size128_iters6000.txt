@@ -1,0 +1,48 @@
+Training log
+START_TIME	2026-06-01 16:02:39
+INPUT_FILE	input.txt
+CHARACTERS	5359444
+VOCAB_SIZE	100
+BLOCK_SIZE	64
+LAYER_SIZE	128
+N_LAYERS	4
+LEARNING_RATE	0.0003
+MAX_ITERS	6000
+BATCH_SIZE	32
+
+step	loss
+1	4.7583
+300	2.5260
+600	2.3844
+900	2.3916
+1200	2.3481
+1500	2.1914
+1800	2.1877
+2100	2.1388
+2400	2.1081
+2700	2.0528
+3000	2.0692
+3300	2.1044
+3600	1.9828
+3900	1.9523
+4200	1.9777
+4500	1.9429
+4800	1.9435
+5100	1.9342
+5400	1.8999
+5700	1.9397
+6000	1.8726
+
+Generated sample
+	!, &Tagris hans you.
+Hangs neour seing truumits he you,
+Thats rocearses theree you diefes thusp allambave hisurght the nowned have do.
+O dostere from and, ctupono horse,
+Agas a which domenting ublioks, fuld affll,
+Barke to, forkssom yee, theer hiss have and doners will to not cury gu
+ratle; I it; mustur, thoust lamerove. Caned my wood blote heare with,
+this hand strang pubeforerecth m, reand.
+
+THIVESAF.
+Bavelt; weas the wil I see voury me marrumitione,
+Whould con lighf engedlaty, to would recoar
